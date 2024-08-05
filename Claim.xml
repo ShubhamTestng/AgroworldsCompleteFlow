@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  	<listeners>
+		<listener class-name="listener.ExtentReportListener"></listener>
+		<listener class-name="listener.ScreenshotListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test-1">
+	<groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+		 <class name="SSIAgroworlds.TraderPage"/>
+         <class name="SSIAgroworlds.BDMPage"/>
+         <class name="SSIAgroworlds.ProcurementIRMPage"/>
+         <class name="SSIAgroworlds.DocumentIRMPage">
+           <methods>
+               <include name="DocIRMlogin"/>
+               <include name="createContract"/>
+                <include name="generateContract"/>
+           </methods>
+         </class>
+         <class name="SSIAgroworlds.DocumentExecutivePage"/>  
+    </classes>
+  </test> <!-- Test -->
+  
+ <test thread-count="5" name="Test-2">
+	
+   <classes>
+
+      <class name="SSIAgroworlds.DocumentIRMPage">
+           <methods>
+			   <include name="DocIRMlogin"/>
+               <include name="createContract"/>
+               <include name="approvalAccept"/>
+               <include name="manageLots"/>
+             
+           </methods>
+       </class>
+         
+    </classes>
+ </test> 
+ 
+ <test thread-count="5" name="Test-3">
+	 <groups>
+      <run>
+        <include name="claim"/>
+      </run>
+    </groups>
+	
+	<classes>
+		
+		<class name="SSIAgroworlds.TraderPage">
+			<methods>
+				<include name="traderlogin"></include>
+				<include name="tradehomepage"></include>
+				<include name="raiseClaim"></include>
+			</methods>
+		</class>
+		
+	</classes>
+	 
+ </test> 
+ 
+ 
+ <test thread-count="5" name="Test-4">
+	 <groups>
+      <run>
+        <include name="claim"/>
+      </run>
+    </groups>
+	
+	<classes>
+		
+		<class name="SSIAgroworlds.DocumentExecutivePage">
+			<methods>
+				<include name="DocExecutivelogin"></include>
+				<include name="underClaim"></include>
+			</methods>
+		</class>
+		
+	</classes>
+	 
+ </test> 
+ 
+  <test thread-count="5" name="Test-5">
+	 <groups>
+      <run>
+        <include name="claim"/>
+      </run>
+    </groups>
+	
+	<classes>
+		
+		<class name="SSIAgroworlds.DocumentIRMPage">
+			<methods>
+				<include name="DocIRMlogin"></include>
+				<include name="reviewClaim"></include>
+			</methods>
+		</class>
+		
+	</classes>
+	 
+ </test> 
+ 
+ <test thread-count="5" name="Test-6">
+	 <groups>
+      <run>
+        <include name="claim"/>
+      </run>
+    </groups>
+	
+	<classes>
+		
+		<class name="SSIAgroworlds.TraderPage">
+			<methods>
+				<include name="traderlogin"></include>
+				<include name="claimSettlement"></include>
+			</methods>
+		</class>
+		
+	</classes>
+	 
+ </test> 
+ 
+</suite> <!-- Suite -->

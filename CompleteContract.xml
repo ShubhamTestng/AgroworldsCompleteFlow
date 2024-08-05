@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listener.ExtentReportListener"></listener>
+		<listener class-name="listener.ScreenshotListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test-1">
+	<groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+		 <class name="SSIAgroworlds.TraderPage"/>
+         <class name="SSIAgroworlds.BDMPage"/>
+         <class name="SSIAgroworlds.ProcurementIRMPage"/>
+         <class name="SSIAgroworlds.DocumentIRMPage">
+           <methods>
+               <include name="DocIRMlogin"/>
+               <include name="createContract"/>
+                <include name="generateContract"/>
+           </methods>
+        </class>
+         <class name="SSIAgroworlds.DocumentExecutivePage"/>  
+    </classes>
+  </test> <!-- Test -->
+  
+ <test thread-count="5" name="Test-2">
+	
+   <classes>
+
+      <class name="SSIAgroworlds.DocumentIRMPage">
+           <methods>
+			   <include name="DocIRMlogin"/>
+               <include name="createContract"/>
+               <include name="approvalAccept"/>
+               <include name="manageLots"/>
+               <include name="contractExecution"/>
+
+           </methods>
+       </class>
+         
+    </classes>
+ </test> 
+         
+</suite> <!-- Suite -->

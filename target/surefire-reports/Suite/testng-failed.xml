@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test-2(failed)" verbose="0">
+    <classes>
+      <class name="SSIAgroworlds.DocumentIRMPage">
+        <methods>
+          <include name="contractExecution"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="approvalAccept"/>
+          <include name="manageLots"/>
+        </methods>
+      </class> <!-- SSIAgroworlds.DocumentIRMPage -->
+    </classes>
+  </test> <!-- Test-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test-3">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="SSIAgroworlds.TraderPage">
+          <methods>
+               <exclude name="CreateAddendum"/>
+               <exclude name="AddendumDeatailsFilled"/>
+          </methods>     
+       </class>
+        <class name="SSIAgroworlds.BDMPage">
+         <methods>
+               <exclude name="Addendum"/>  
+                <exclude name="addendumTradeApprove"/>      
+          </methods>
+        </class>  
+      <class name="SSIAgroworlds.ProcurementIRMPage">
+		  <methods>
+		    <exclude name="addendumProcurementApprove"/>  
+		    </methods>
+	  </class>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test-4">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+   <classes>
+       <class name="SSIAgroworlds.BDMPage">
+           <methods>
+			   <include name="bdmlogin"/>
+			   <include name="Addendum"/>
+           </methods>
+       </class>
+       
+       
+      <class name="SSIAgroworlds.TraderPage">
+           <methods>
+			   <include name="traderlogin"/>
+			   <include name="CreateAddendum"/>
+               <include name="AddendumDeatailsFilled"/>
+           </methods>
+       </class>
+          
+    </classes>
+ </test> 
+  
+  <test thread-count="5" name="Test-5">
+    <groups>
+      <run>
+        <include name="functional"/>
+      </run>
+    </groups>
+   <classes>
+       <class name="SSIAgroworlds.BDMPage">
+           <methods>
+			    <include name="bdmlogin"/>
+			    <include name="bdmApprove"/>
+			   <include name="sellerApprove"/>
+			    <include name="buyerApprove"/>
+			  
+           </methods>
+       </class>
+      <class name="SSIAgroworlds.ProcurementIRMPage">
+		  <methods>
+			  <include name="procIRMlogin"/>
+			   <include name="addendumProcurementApprove"/>
+		  </methods>
+	  </class>
+ </classes>
+  </test> 
+</suite> <!-- Suite -->
+

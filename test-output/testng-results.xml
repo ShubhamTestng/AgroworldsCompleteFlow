@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-12T10:16:00 IST" name="Suite" finished-at="2024-07-12T10:22:35 IST" duration-ms="394920">
+    <groups>
+      <group name="ContractCancellaton">
+        <method signature="BDMPage.bdmlogin()[pri:1, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmlogin" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.DocExecutivelogin()[pri:1, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="DocExecutivelogin" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="ProcurementIRMPage.procIRMlogin()[pri:1, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procIRMlogin" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.traderlogin()[pri:1, instance:SSIAgroworlds.TraderPage@27a5328c]" name="traderlogin" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+      </group> <!-- ContractCancellaton -->
+      <group name="functional">
+        <method signature="BDMPage.bdmlogin()[pri:1, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmlogin" class="SSIAgroworlds.BDMPage"/>
+        <method signature="ProcurementIRMPage.procIRMlogin()[pri:1, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procIRMlogin" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.traderlogin()[pri:1, instance:SSIAgroworlds.TraderPage@27a5328c]" name="traderlogin" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.bdmApprove()[pri:2, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="ProcurementIRMPage.procurementApprove()[pri:2, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procurementApprove" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.homepage()[pri:2, instance:SSIAgroworlds.TraderPage@27a5328c]" name="homepage" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.sellerApprove()[pri:3, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="sellerApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="TraderPage.TradeDetails()[pri:3, instance:SSIAgroworlds.TraderPage@27a5328c]" name="TradeDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.buyerApprove()[pri:4, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="buyerApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="TraderPage.shipmentDetails()[pri:4, instance:SSIAgroworlds.TraderPage@27a5328c]" name="shipmentDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.productDetails()[pri:5, instance:SSIAgroworlds.TraderPage@27a5328c]" name="productDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.sellerDetails()[pri:6, instance:SSIAgroworlds.TraderPage@27a5328c]" name="sellerDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.buyerDetails()[pri:7, instance:SSIAgroworlds.TraderPage@27a5328c]" name="buyerDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.sendReviewTrade()[pri:8, instance:SSIAgroworlds.TraderPage@27a5328c]" name="sendReviewTrade" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentIRMPage.approvalAccept()[pri:3, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="approvalAccept" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.manageLots()[pri:4, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="manageLots" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.contractExecution()[pri:5, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="contractExecution" class="SSIAgroworlds.DocumentIRMPage"/>
+      </group> <!-- functional -->
+      <group name="Regression">
+        <method signature="BDMPage.bdmlogin()[pri:1, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmlogin" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.DocExecutivelogin()[pri:1, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="DocExecutivelogin" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="ProcurementIRMPage.procIRMlogin()[pri:1, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procIRMlogin" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.traderlogin()[pri:1, instance:SSIAgroworlds.TraderPage@27a5328c]" name="traderlogin" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.bdmApprove()[pri:2, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.generateContract()[pri:2, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="generateContract" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="createContract" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="ProcurementIRMPage.procurementApprove()[pri:2, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procurementApprove" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.homepage()[pri:2, instance:SSIAgroworlds.TraderPage@27a5328c]" name="homepage" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.sellerApprove()[pri:3, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="sellerApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.defineStageApprove()[pri:3, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="defineStageApprove" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.generateContract()[pri:3, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="generateContract" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="TraderPage.TradeDetails()[pri:3, instance:SSIAgroworlds.TraderPage@27a5328c]" name="TradeDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.buyerApprove()[pri:4, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="buyerApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.tCdOCUMNET()[pri:4, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="tCdOCUMNET" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="TraderPage.shipmentDetails()[pri:4, instance:SSIAgroworlds.TraderPage@27a5328c]" name="shipmentDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentExecutivePage.contractRegistration()[pri:5, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="contractRegistration" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="TraderPage.productDetails()[pri:5, instance:SSIAgroworlds.TraderPage@27a5328c]" name="productDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.sellerDetails()[pri:6, instance:SSIAgroworlds.TraderPage@27a5328c]" name="sellerDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.buyerDetails()[pri:7, instance:SSIAgroworlds.TraderPage@27a5328c]" name="buyerDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.sendReviewTrade()[pri:8, instance:SSIAgroworlds.TraderPage@27a5328c]" name="sendReviewTrade" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="createContract" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.approvalAccept()[pri:3, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="approvalAccept" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.manageLots()[pri:4, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="manageLots" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.contractExecution()[pri:5, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="contractExecution" class="SSIAgroworlds.DocumentIRMPage"/>
+      </group> <!-- Regression -->
+      <group name="claim">
+        <method signature="DocumentExecutivePage.DocExecutivelogin()[pri:1, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="DocExecutivelogin" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="TraderPage.traderlogin()[pri:1, instance:SSIAgroworlds.TraderPage@27a5328c]" name="traderlogin" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentIRMPage.createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="createContract" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="createContract" class="SSIAgroworlds.DocumentIRMPage"/>
+      </group> <!-- claim -->
+      <group name="sanity">
+        <method signature="BDMPage.bdmlogin()[pri:1, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmlogin" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.DocExecutivelogin()[pri:1, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="DocExecutivelogin" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="ProcurementIRMPage.procIRMlogin()[pri:1, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procIRMlogin" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.traderlogin()[pri:1, instance:SSIAgroworlds.TraderPage@27a5328c]" name="traderlogin" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.bdmApprove()[pri:2, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="bdmApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.generateContract()[pri:2, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="generateContract" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="createContract" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="ProcurementIRMPage.procurementApprove()[pri:2, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" name="procurementApprove" class="SSIAgroworlds.ProcurementIRMPage"/>
+        <method signature="TraderPage.homepage()[pri:2, instance:SSIAgroworlds.TraderPage@27a5328c]" name="homepage" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.sellerApprove()[pri:3, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="sellerApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.defineStageApprove()[pri:3, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="defineStageApprove" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="DocumentIRMPage.generateContract()[pri:3, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" name="generateContract" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="TraderPage.TradeDetails()[pri:3, instance:SSIAgroworlds.TraderPage@27a5328c]" name="TradeDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="BDMPage.buyerApprove()[pri:4, instance:SSIAgroworlds.BDMPage@6f80fafe]" name="buyerApprove" class="SSIAgroworlds.BDMPage"/>
+        <method signature="DocumentExecutivePage.tCdOCUMNET()[pri:4, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="tCdOCUMNET" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="TraderPage.shipmentDetails()[pri:4, instance:SSIAgroworlds.TraderPage@27a5328c]" name="shipmentDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentExecutivePage.contractRegistration()[pri:5, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" name="contractRegistration" class="SSIAgroworlds.DocumentExecutivePage"/>
+        <method signature="TraderPage.productDetails()[pri:5, instance:SSIAgroworlds.TraderPage@27a5328c]" name="productDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.sellerDetails()[pri:6, instance:SSIAgroworlds.TraderPage@27a5328c]" name="sellerDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.buyerDetails()[pri:7, instance:SSIAgroworlds.TraderPage@27a5328c]" name="buyerDetails" class="SSIAgroworlds.TraderPage"/>
+        <method signature="TraderPage.sendReviewTrade()[pri:8, instance:SSIAgroworlds.TraderPage@27a5328c]" name="sendReviewTrade" class="SSIAgroworlds.TraderPage"/>
+        <method signature="DocumentIRMPage.DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="DocIRMlogin" class="SSIAgroworlds.DocumentIRMPage"/>
+        <method signature="DocumentIRMPage.createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" name="createContract" class="SSIAgroworlds.DocumentIRMPage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-07-12T10:16:00 IST" name="Test-1" finished-at="2024-07-12T10:19:31 IST" duration-ms="211087">
+      <class name="SSIAgroworlds.ProcurementIRMPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" started-at="2024-07-12T10:17:34 IST" name="setUp" finished-at="2024-07-12T10:17:36 IST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="procIRMlogin()[pri:1, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" started-at="2024-07-12T10:17:36 IST" name="procIRMlogin" finished-at="2024-07-12T10:17:40 IST" duration-ms="4726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- procIRMlogin -->
+        <test-method signature="procurementApprove()[pri:2, instance:SSIAgroworlds.ProcurementIRMPage@f9879ac]" started-at="2024-07-12T10:17:40 IST" name="procurementApprove" finished-at="2024-07-12T10:18:00 IST" duration-ms="19874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- procurementApprove -->
+      </class> <!-- SSIAgroworlds.ProcurementIRMPage -->
+      <class name="SSIAgroworlds.BDMPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SSIAgroworlds.BDMPage@6f80fafe]" started-at="2024-07-12T10:16:39 IST" name="setUp" finished-at="2024-07-12T10:16:41 IST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bdmlogin()[pri:1, instance:SSIAgroworlds.BDMPage@6f80fafe]" started-at="2024-07-12T10:16:41 IST" name="bdmlogin" finished-at="2024-07-12T10:16:46 IST" duration-ms="4935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdmlogin -->
+        <test-method signature="bdmApprove()[pri:2, instance:SSIAgroworlds.BDMPage@6f80fafe]" started-at="2024-07-12T10:16:46 IST" name="bdmApprove" finished-at="2024-07-12T10:16:57 IST" duration-ms="11055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdmApprove -->
+        <test-method signature="sellerApprove()[pri:3, instance:SSIAgroworlds.BDMPage@6f80fafe]" started-at="2024-07-12T10:16:57 IST" name="sellerApprove" finished-at="2024-07-12T10:17:15 IST" duration-ms="17454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellerApprove -->
+        <test-method signature="buyerApprove()[pri:4, instance:SSIAgroworlds.BDMPage@6f80fafe]" started-at="2024-07-12T10:17:15 IST" name="buyerApprove" finished-at="2024-07-12T10:17:34 IST" duration-ms="18814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyerApprove -->
+      </class> <!-- SSIAgroworlds.BDMPage -->
+      <class name="SSIAgroworlds.TraderPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:00 IST" name="setUp" finished-at="2024-07-12T10:16:03 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="traderlogin()[pri:1, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:03 IST" name="traderlogin" finished-at="2024-07-12T10:16:05 IST" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traderlogin -->
+        <test-method signature="homepage()[pri:2, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:05 IST" name="homepage" finished-at="2024-07-12T10:16:13 IST" duration-ms="7618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="TradeDetails()[pri:3, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:13 IST" name="TradeDetails" finished-at="2024-07-12T10:16:14 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TradeDetails -->
+        <test-method signature="shipmentDetails()[pri:4, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:14 IST" name="shipmentDetails" finished-at="2024-07-12T10:16:15 IST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipmentDetails -->
+        <test-method signature="productDetails()[pri:5, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:15 IST" name="productDetails" finished-at="2024-07-12T10:16:27 IST" duration-ms="12128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetails -->
+        <test-method signature="sellerDetails()[pri:6, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:27 IST" name="sellerDetails" finished-at="2024-07-12T10:16:30 IST" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellerDetails -->
+        <test-method signature="buyerDetails()[pri:7, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:30 IST" name="buyerDetails" finished-at="2024-07-12T10:16:38 IST" duration-ms="7994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyerDetails -->
+        <test-method signature="sendReviewTrade()[pri:8, instance:SSIAgroworlds.TraderPage@27a5328c]" started-at="2024-07-12T10:16:38 IST" name="sendReviewTrade" finished-at="2024-07-12T10:16:39 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReviewTrade -->
+      </class> <!-- SSIAgroworlds.TraderPage -->
+      <class name="SSIAgroworlds.DocumentExecutivePage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" started-at="2024-07-12T10:18:29 IST" name="setUp" finished-at="2024-07-12T10:18:31 IST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DocExecutivelogin()[pri:1, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" started-at="2024-07-12T10:18:31 IST" name="DocExecutivelogin" finished-at="2024-07-12T10:18:36 IST" duration-ms="4615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocExecutivelogin -->
+        <test-method signature="generateContract()[pri:2, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" started-at="2024-07-12T10:18:36 IST" name="generateContract" finished-at="2024-07-12T10:18:43 IST" duration-ms="7780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateContract -->
+        <test-method signature="defineStageApprove()[pri:3, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" started-at="2024-07-12T10:18:43 IST" name="defineStageApprove" finished-at="2024-07-12T10:19:08 IST" duration-ms="24093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineStageApprove -->
+        <test-method signature="tCdOCUMNET()[pri:4, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" started-at="2024-07-12T10:19:08 IST" name="tCdOCUMNET" finished-at="2024-07-12T10:19:16 IST" duration-ms="8369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tCdOCUMNET -->
+        <test-method signature="contractRegistration()[pri:5, instance:SSIAgroworlds.DocumentExecutivePage@493dfb8e]" started-at="2024-07-12T10:19:16 IST" name="contractRegistration" finished-at="2024-07-12T10:19:31 IST" duration-ms="15408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractRegistration -->
+      </class> <!-- SSIAgroworlds.DocumentExecutivePage -->
+      <class name="SSIAgroworlds.DocumentIRMPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" started-at="2024-07-12T10:18:00 IST" name="setUp" finished-at="2024-07-12T10:18:02 IST" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" started-at="2024-07-12T10:18:02 IST" name="DocIRMlogin" finished-at="2024-07-12T10:18:16 IST" duration-ms="13281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocIRMlogin -->
+        <test-method signature="createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" started-at="2024-07-12T10:18:16 IST" name="createContract" finished-at="2024-07-12T10:18:17 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContract -->
+        <test-method signature="generateContract()[pri:3, instance:SSIAgroworlds.DocumentIRMPage@5f4d427e]" started-at="2024-07-12T10:18:17 IST" name="generateContract" finished-at="2024-07-12T10:18:29 IST" duration-ms="12208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateContract -->
+      </class> <!-- SSIAgroworlds.DocumentIRMPage -->
+    </test> <!-- Test-1 -->
+    <test started-at="2024-07-12T10:19:32 IST" name="Test-2" finished-at="2024-07-12T10:22:35 IST" duration-ms="182890">
+      <class name="SSIAgroworlds.DocumentIRMPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:19:32 IST" name="setUp" finished-at="2024-07-12T10:19:35 IST" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DocIRMlogin()[pri:1, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:19:35 IST" name="DocIRMlogin" finished-at="2024-07-12T10:19:49 IST" duration-ms="14019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DocIRMlogin -->
+        <test-method signature="createContract()[pri:2, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:19:49 IST" name="createContract" finished-at="2024-07-12T10:19:51 IST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContract -->
+        <test-method signature="approvalAccept()[pri:3, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:19:51 IST" name="approvalAccept" finished-at="2024-07-12T10:20:57 IST" duration-ms="66093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approvalAccept -->
+        <test-method signature="manageLots()[pri:4, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:20:57 IST" name="manageLots" finished-at="2024-07-12T10:21:14 IST" duration-ms="17141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageLots -->
+        <test-method signature="contractExecution()[pri:5, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:21:14 IST" name="contractExecution" finished-at="2024-07-12T10:22:35 IST" duration-ms="80903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractExecution -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SSIAgroworlds.DocumentIRMPage@c65a5ef]" started-at="2024-07-12T10:22:35 IST" name="tearDown" finished-at="2024-07-12T10:22:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SSIAgroworlds.DocumentIRMPage -->
+    </test> <!-- Test-2 -->
+  </suite> <!-- Suite -->
+</testng-results>

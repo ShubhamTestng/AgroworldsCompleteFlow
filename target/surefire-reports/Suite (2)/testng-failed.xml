@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (2)]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestWithGroup4Excluded(failed)" verbose="0">
+    <parameter name="browserType" value="incognito"/>
+    <groups>
+      <run>
+        <include name="group1"/>
+        <include name="group2"/>
+        <include name="group3"/>
+        <exclude name="group4"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SSIAgroworlds.DocumentIRMPage">
+        <methods>
+          <include name="createContract"/>
+          <include name="generateContract"/>
+          <include name="DocIRMlogin"/>
+        </methods>
+      </class> <!-- SSIAgroworlds.DocumentIRMPage -->
+    </classes>
+  </test> <!-- TestWithGroup4Excluded(failed) -->
+</suite> <!-- Failed suite [Suite (2)] -->
